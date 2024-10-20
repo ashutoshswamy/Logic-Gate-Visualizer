@@ -1,0 +1,28 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1.title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+div.xorgate,
+div.xnorgate,
+div.backdiv {
+  padding-top: 25px;
+  text-align: center;
+}
+
+select {
+  font-family: "Poppins", sans-serif;
+  width: 50px;
+  height: 20px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+}

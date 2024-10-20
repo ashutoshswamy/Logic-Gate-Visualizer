@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Derived Gates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/derived_gates.css" />
+    <script text="javascript" src="../js/derived_gates.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Derived Gates</h1>
+    <div class="xorgate">
+      <h3>XOR GATE</h3>
+      <label>Input A</label>
+      <select id="xor-inputa">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <label>Input B</label>
+      <select id="xor-inputb">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <br />
+      <br />
+      <label id="xoroutput">Output Y: </label>
+      <br />
+      <br />
+      <button onclick="xorGate()">Show Output</button>
+    </div>
+    <div class="xnorgate">
+      <h3>XNOR GATE</h3>
+      <label>Input A</label>
+      <select id="xnor-inputa">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <label>Input B</label>
+      <select id="xnor-inputb">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <br />
+      <br />
+      <label id="xnoroutput">Output Y: </label>
+      <br />
+      <br />
+      <button onclick="xnorGate()">Show Output</button>
+    </div>
+    <div class="backdiv">
+      <a href="../index.html"><button>Back to Home Page</button></a>
+    </div>
+  </body>
+</html>

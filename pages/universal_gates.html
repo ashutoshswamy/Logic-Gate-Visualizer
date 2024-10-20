@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal Gates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/universal_gates.css" />
+    <script text="javascript" src="../js/universal_gates.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Universal Gates</h1>
+    <div class="nandgate">
+      <h3>NAND GATE</h3>
+      <label>Input A</label>
+      <select id="nand-inputa">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <label>Input B</label>
+      <select id="nand-inputb">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <br />
+      <br />
+      <label id="nandoutput">Output Y: </label>
+      <br />
+      <br />
+      <button onclick="nandGate()">Show Output</button>
+    </div>
+    <div class="norgate">
+      <h3>NOR GATE</h3>
+      <label>Input A</label>
+      <select id="nor-inputa">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <label>Input B</label>
+      <select id="nor-inputb">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <br />
+      <br />
+      <label id="noroutput">Output Y: </label>
+      <br />
+      <br />
+      <button onclick="norGate()">Show Output</button>
+    </div>
+    <div class="backdiv">
+      <a href="../index.html"><button>Back to Home Page</button></a>
+    </div>
+  </body>
+</html>

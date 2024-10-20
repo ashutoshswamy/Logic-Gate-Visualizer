@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Gates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/basic_gates.css" />
+    <script text="javascript" src="../js/basic_gates.js"></script>
+  </head>
+  <body>
+    <h1 class="title">Basic Gates</h1>
+    <div class="notgate">
+      <h3>NOT GATE</h3>
+      <label>Input A</label>
+      <select id="not-inputa">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <br />
+      <br />
+      <label id="notoutput">Output Y: </label>
+      <br />
+      <br />
+      <button onclick="notGate()">Show Output</button>
+    </div>
+    <div class="andgate">
+      <h3>AND GATE</h3>
+      <label>Input A</label>
+      <select id="and-inputa">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <label>Input B</label>
+      <select id="and-inputb">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <br />
+      <br />
+      <label id="andoutput">Output Y: </label>
+      <br />
+      <br />
+      <button onclick="andGate()">Show Output</button>
+    </div>
+    <div class="orgate">
+      <h3>OR GATE</h3>
+      <label>Input A</label>
+      <select id="or-inputa">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <label>Input B</label>
+      <select id="or-inputb">
+        <option value="0">0</option>
+        <option value="1">1</option>
+      </select>
+      <br />
+      <br />
+      <label id="oroutput">Output Y: </label>
+      <br />
+      <br />
+      <button onclick="orGate()">Show Output</button>
+    </div>
+    <div class="backdiv">
+      <a href="../index.html"><button>Back to Home Page</button></a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1.title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+div.buttons {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.devinfo {
+  padding-top: 25px;
+  text-align: center;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  width: 250px;
+  height: 40px;
+  margin: 10px;
+}
