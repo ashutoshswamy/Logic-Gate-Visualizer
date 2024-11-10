@@ -37,20 +37,17 @@ button:hover {
   background-color: #0056b3;
 }
 
-.devinfo {
+footer {
   margin-top: 20px;
-  text-align: center;
+  font-size: 14px;
+  color: #aaaaaa;
 }
 
-.devinfo h3 {
-  color: #e0e0e0;
-}
-
-.devinfo a {
+footer a {
   color: #1e90ff;
   text-decoration: none;
 }
 
-.devinfo a:hover {
+footer a:hover {
   text-decoration: underline;
 }
