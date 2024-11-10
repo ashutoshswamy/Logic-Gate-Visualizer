@@ -11,11 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../styles/derived_gates.css" />
-    <script text="javascript" src="../js/derived_gates.js"></script>
+    <script src="../js/derived_gates.js" defer></script>
   </head>
   <body>
     <h1 class="title">Derived Gates</h1>
-    <div class="xorgate">
+
+    <div class="gate-container xorgate">
       <h3>XOR GATE</h3>
       <label>Input A</label>
       <select id="xor-inputa">
@@ -28,13 +29,12 @@
         <option value="1">1</option>
       </select>
       <br />
-      <br />
       <label id="xoroutput">Output Y: </label>
-      <br />
       <br />
       <button onclick="xorGate()">Show Output</button>
     </div>
-    <div class="xnorgate">
+
+    <div class="gate-container xnorgate">
       <h3>XNOR GATE</h3>
       <label>Input A</label>
       <select id="xnor-inputa">
@@ -47,12 +47,11 @@
         <option value="1">1</option>
       </select>
       <br />
-      <br />
       <label id="xnoroutput">Output Y: </label>
-      <br />
       <br />
       <button onclick="xnorGate()">Show Output</button>
     </div>
+
     <div class="backdiv">
       <a href="../index.html"><button>Back to Home Page</button></a>
     </div>

@@ -11,11 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../styles/basic_gates.css" />
-    <script text="javascript" src="../js/basic_gates.js"></script>
+    <script src="../js/basic_gates.js" defer></script>
   </head>
   <body>
     <h1 class="title">Basic Gates</h1>
-    <div class="notgate">
+
+    <div class="gate-container notgate">
       <h3>NOT GATE</h3>
       <label>Input A</label>
       <select id="not-inputa">
@@ -23,13 +24,12 @@
         <option value="1">1</option>
       </select>
       <br />
-      <br />
       <label id="notoutput">Output Y: </label>
-      <br />
       <br />
       <button onclick="notGate()">Show Output</button>
     </div>
-    <div class="andgate">
+
+    <div class="gate-container andgate">
       <h3>AND GATE</h3>
       <label>Input A</label>
       <select id="and-inputa">
@@ -42,13 +42,12 @@
         <option value="1">1</option>
       </select>
       <br />
-      <br />
       <label id="andoutput">Output Y: </label>
-      <br />
       <br />
       <button onclick="andGate()">Show Output</button>
     </div>
-    <div class="orgate">
+
+    <div class="gate-container orgate">
       <h3>OR GATE</h3>
       <label>Input A</label>
       <select id="or-inputa">
@@ -61,12 +60,11 @@
         <option value="1">1</option>
       </select>
       <br />
-      <br />
       <label id="oroutput">Output Y: </label>
-      <br />
       <br />
       <button onclick="orGate()">Show Output</button>
     </div>
+
     <div class="backdiv">
       <a href="../index.html"><button>Back to Home Page</button></a>
     </div>

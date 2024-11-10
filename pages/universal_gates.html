@@ -11,11 +11,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../styles/universal_gates.css" />
-    <script text="javascript" src="../js/universal_gates.js"></script>
+    <script src="../js/universal_gates.js" defer></script>
   </head>
   <body>
     <h1 class="title">Universal Gates</h1>
-    <div class="nandgate">
+
+    <div class="gate-container nandgate">
       <h3>NAND GATE</h3>
       <label>Input A</label>
       <select id="nand-inputa">
@@ -28,13 +29,12 @@
         <option value="1">1</option>
       </select>
       <br />
-      <br />
       <label id="nandoutput">Output Y: </label>
-      <br />
       <br />
       <button onclick="nandGate()">Show Output</button>
     </div>
-    <div class="norgate">
+
+    <div class="gate-container norgate">
       <h3>NOR GATE</h3>
       <label>Input A</label>
       <select id="nor-inputa">
@@ -47,12 +47,11 @@
         <option value="1">1</option>
       </select>
       <br />
-      <br />
       <label id="noroutput">Output Y: </label>
-      <br />
       <br />
       <button onclick="norGate()">Show Output</button>
     </div>
+
     <div class="backdiv">
       <a href="../index.html"><button>Back to Home Page</button></a>
     </div>
